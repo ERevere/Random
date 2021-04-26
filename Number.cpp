@@ -17,7 +17,7 @@ main()
     cout << "Enter the higherbound for your random number: ";
     cin >> higherbound;
     higherbound = higherbound + 1;
-    Secret = (time(NULL)) % higherbound + lowerbound;
+    Secret = Rand(time(NULL)) % higherbound + lowerbound;
     cout << "Guess the number which has been generated: ";
     cin >> Guess;
 
