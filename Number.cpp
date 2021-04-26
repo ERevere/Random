@@ -6,7 +6,7 @@ using namespace std;
 int
 main ()
 {
-  int lowerbound, higherbound, iSecret, Guess;
+  int lowerbound, higherbound, Secret, Guess;
 
   cout << "Enter the lowerbound for your random number: ";
   cin >> lowerbound;
